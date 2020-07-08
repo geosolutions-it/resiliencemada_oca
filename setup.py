@@ -9,7 +9,7 @@ setuptools.setup(
     author="oca",
     author_email="author@example.com",
     description="The OCA Django app",
-    include_data_package=True,
+    include_package_data=True,
     long_description_content_type="text/markdown",
     url="https://github.com/geosolutions-it/resiliencemada_oca",
     packages=setuptools.find_packages(),
