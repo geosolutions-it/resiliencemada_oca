@@ -7,8 +7,8 @@ setuptools.setup(
     name="oca", # Replace with your own username
     version="0.0.1",
     author="oca",
-    author_email="author@example.com",
-    description="A small example package",
+    author_email="info@geo-solutions.it",
+    description="An OCA Django app",
     long_description=long_description,
     include_package_data=True,
     zip_safe=False,
