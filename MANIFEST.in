@@ -1,0 +1,2 @@
+recursive-include oca/static *
+recursive-include oca/templates *
