@@ -1,0 +1,12 @@
+README.md
+setup.py
+oca/__init__.py
+oca/admin.py
+oca/apps.py
+oca/models.py
+oca/views.py
+oca.egg-info/PKG-INFO
+oca.egg-info/SOURCES.txt
+oca.egg-info/dependency_links.txt
+oca.egg-info/top_level.txt
+oca/migrations/__init__.py

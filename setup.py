@@ -8,10 +8,10 @@ setuptools.setup(
     version="0.0.1",
     author="oca",
     author_email="author@example.com",
-    description="A small example package",
-    long_description=long_description,
+    description="The OCA Django app",
+    include_data_package=True,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/geosolutions-it/resiliencemada_oca",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
