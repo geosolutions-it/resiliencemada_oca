@@ -17,9 +17,7 @@ class HomePage(TemplateView):
                     'static/oca')
 
         fokontany = os.listdir(os.path.join(oca_statics, 'fokontany'))
-        fkt = []
-        for fok in fokontany:
-            fkt.append(os.path.splitext(fok)[0])
+        fkt = [os.path.splitext(fok)[0] for fok in fokontany]
 
         bati = os.listdir(os.path.join(oca_statics, 'bati'))
         eau = os.listdir(os.path.join(oca_statics, 'eau'))
