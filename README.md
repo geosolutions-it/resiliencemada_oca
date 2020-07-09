@@ -34,3 +34,5 @@ urlpatterns = [
    url(r'^/?$', HomePage.as_view(), name='home'),
  ] + urlpatterns
 ```
+
+>**Note**: The home page template (`site_index.html`) generated during the creation of the geonode project should be renamed/deleted to prevent a conflict with a template of similar naming in the OCA Django app.
